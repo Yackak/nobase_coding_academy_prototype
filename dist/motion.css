@@ -1,0 +1,64 @@
+/* Brief feedback and one-time entrances, with the content visible by default. */
+:root {
+  --motion-ease: cubic-bezier(.22, 1, .36, 1);
+  --motion-control: 180ms;
+  --motion-overlay: 280ms;
+}
+
+.button, .text-link, .program-link, .mobile-contact button,
+.menu-toggle, .dialog-close, .back-top, .mobile-menu > a,
+.system-tab, .program-details > summary, .faq-list summary {
+  transition: transform var(--motion-control) var(--motion-ease),
+    background-color var(--motion-control) var(--motion-ease),
+    color var(--motion-control) var(--motion-ease),
+    border-color var(--motion-control) var(--motion-ease);
+}
+
+.button:active, .text-link:active, .program-link:active,
+.mobile-contact button:active, .menu-toggle:active, .dialog-close:active,
+.back-top:active, .mobile-menu > a:active, .system-tab:active,
+.program-details > summary:active, .faq-list summary:active {
+  transform: scale(.98);
+}
+
+.menu-toggle span, .faq-plus::after, .program-details > summary svg {
+  transition: transform var(--motion-control) var(--motion-ease);
+}
+
+@keyframes overlay-enter {
+  from { opacity: 0; translate: 0 12px; }
+  to { opacity: 1; translate: 0 0; }
+}
+
+.menu-open .mobile-menu, dialog[open] {
+  animation: overlay-enter var(--motion-overlay) var(--motion-ease);
+}
+
+@keyframes detail-enter {
+  from { opacity: .5; translate: 0 6px; }
+  to { opacity: 1; translate: 0 0; }
+}
+
+.faq-list details[open] .faq-answer {
+  animation: detail-enter 220ms var(--motion-ease);
+}
+
+@media (max-width: 767px) {
+  .program-details[open] .program-detail-body {
+    animation: detail-enter 220ms var(--motion-ease);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after {
+    animation: none !important;
+    transition: none !important;
+  }
+  .button:active, .text-link:active, .program-link:active,
+  .mobile-contact button:active, .menu-toggle:active, .dialog-close:active,
+  .back-top:active, .mobile-menu > a:active, .system-tab:active,
+  .program-details > summary:active, .faq-list summary:active {
+    transform: none;
+  }
+}
