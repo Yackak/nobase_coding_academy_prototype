@@ -37,7 +37,7 @@
   .scene-chip { padding: 10px 13px; border-radius: 11px; }
   .scene-chip strong { font-size: 17px; }
   .chip-english { left: 7%; top: 27%; }
-  .chip-math { right: 6%; top: 76%; }
+  .chip-math { right: 6%; top: auto; bottom: 11%; }
   .chip-math strong { font-size: 12px; }
   .chip-math > span { font-size: 10px; }
   .scene-chip small { font-size: 8px; }
