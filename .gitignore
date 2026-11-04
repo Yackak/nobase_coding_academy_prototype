@@ -2,3 +2,6 @@
 qa/
 *.tar.gz
 *.tgz
+node_modules/
+dist/
+.ssr/

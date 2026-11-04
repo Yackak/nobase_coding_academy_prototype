@@ -1,0 +1,59 @@
+{
+  "generatedAt": "2026-11-04",
+  "generator": "built-in image_gen",
+  "reference": "public/assets/learning-hero.webp",
+  "assets": [
+    {
+      "name": "book",
+      "path": "/Users/yackak/.codex/generated_images/01a1a454-8703-7862-bcbf-003ff5f4f065/exec-3b3da05d-7047-4102-b0bd-689528bfa798.png",
+      "prompt": "Use case: stylized-concept. Asset type: isolated transparent PNG layer for a refined Korean academy website animation. Input image is STYLE AND MATERIAL REFERENCE ONLY, not a scene to reproduce. Create one open book alone: dark forest-green cloth hardcover, warm ivory blank pages with subtle paper texture, slight elevated three-quarter front view matching the reference book, spine centered toward bottom, left and right pages gracefully fanned. Full object visible with clean transparent margins, occupies around 85 percent width of a square canvas. Soft dimensional product-render quality, gentle light from upper left, matte natural materials, realistic but warm and calm. Actual transparent background with alpha; object self-shading only. No plant, no sprout, no pencil, no pedestal, no floor, no cast shadow plane, no background, no text, no letters, no logo, no extra objects. Keep covers visible around page edges and realistic coherent book geometry.",
+      "sourcePng": "source-assets/motion/book.png",
+      "webAsset": "public/assets/motion/book.webp",
+      "webDimensions": [
+        960,
+        960
+      ],
+      "webBytes": 310088
+    },
+    {
+      "name": "sprout",
+      "path": "/Users/yackak/.codex/generated_images/01a1a454-8703-7862-bcbf-003ff5f4f065/exec-14861e24-7452-4872-9f5b-73407b588017.png",
+      "prompt": "Use case: stylized-concept. Asset type: one isolated transparent PNG object layer for a refined academy website animation. Input image is STYLE, GREEN PALETTE, LEAF MATERIAL reference only. Create a single young sprout, exactly two broad green leaves and a graceful short green stem, front-facing with slight depth. The left leaf reaches up-left and the right leaf reaches up-right, right leaf slightly larger and higher; stem terminates cleanly at bottom center. Match the warm matte natural 3D rendering and fine subtle leaf veins in the reference. Entire sprout visible with transparent margin; centered on square canvas, vertical orientation. Gentle upper-left light, natural healthy mid-green leaves, fresh lighter stem. Genuinely transparent background alpha, only object self-shading. No book, no soil, no roots, no pot, no pencil, no floor, no shadow plane, no environment, no text, no logo. This is a reusable separate scene layer, not the complete hero image.",
+      "sourcePng": "source-assets/motion/sprout.png",
+      "webAsset": "public/assets/motion/sprout.webp",
+      "webDimensions": [
+        560,
+        560
+      ],
+      "webBytes": 72090
+    },
+    {
+      "name": "pencil",
+      "path": "/Users/yackak/.codex/generated_images/01a1a454-8703-7862-bcbf-003ff5f4f065/exec-675a5f7d-91cf-4434-9a67-f43ece296348.png",
+      "prompt": "Use case: stylized-concept. Asset type: isolated transparent PNG layer for a Korean academy website animation. Input image is STYLE AND MATERIAL REFERENCE only. Create one yellow ochre wooden pencil, graphite sharpened tip at lower left and muted coral eraser tail at upper right, diagonal about 35 degrees upward across a square canvas. Hexagonal matte lacquer body, warm exposed wood, minimal brushed warm-gold ferrule, soft dimensional 3D product rendering and lighting from upper left matching reference. Full pencil visible, no cropping, transparent margin around all ends, about 85 percent of canvas diagonal. Genuinely transparent background alpha, only object self-shading. No book, no plant, no pedestal, no floor, no cast-shadow plane, no geometric props, no text, no printed brand, no watermark.",
+      "sourcePng": "source-assets/motion/pencil.png",
+      "webAsset": "public/assets/motion/pencil.webp",
+      "webDimensions": [
+        560,
+        560
+      ],
+      "webBytes": 47300
+    },
+    {
+      "name": "sprout-closed",
+      "path": "/Users/yackak/.codex/generated_images/01a1a454-8703-7862-bcbf-003ff5f4f065/exec-4257c122-67c2-4e99-8191-54f311fbd1db.png",
+      "prompt": "Use case: precise-object-edit. Asset type: alternate animation pose for the attached transparent two-leaf sprout. Edit only the leaf pose: keep the same stem position, exact bottom endpoint, overall camera, light, colors, leaf texture, scale and transparent canvas framing. Bring the two leaf blades inward and slightly upward toward the middle, like the same young plant before its leaves have finished opening, still with a small open V between them. Do not add leaves. Keep the lower stem absolutely unchanged; the result will crossfade directly to the supplied open pose. Preserve genuine transparent background alpha. No soil, roots, pot, book, shadow plane, background, text, or extra objects. Sharp clean edges without stray pixels.",
+      "sourcePng": "source-assets/motion/sprout-closed.png",
+      "webAsset": "public/assets/motion/sprout-closed.webp",
+      "webDimensions": [
+        560,
+        560
+      ],
+      "webBytes": 44446
+    }
+  ],
+  "processing": "Generated alpha preserved. PNG copied without modification; lossless WebP made after Lanczos downscale. No background removal or pixel retouch. WebP exact option preserves RGB beneath transparent pixels as well.",
+  "validation": "All four images visually inspected; alpha channel range 0–255. Book, sprout, closed sprout and pencil are separate isolated objects with no labels or background.",
+  "webTotalBytes": 473924,
+  "sourcePolicy": "Original generated PNGs are retained in source-assets/motion; only optimized lossless WebP assets are deployed from public/assets/motion."
+}

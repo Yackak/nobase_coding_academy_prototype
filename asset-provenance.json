@@ -1,6 +1,6 @@
 {
   "tool": "built-in image_gen.imagegen",
-  "asset": "dist/assets/learning-hero.webp",
+  "asset": "public/assets/learning-hero.webp",
   "prompt": "Use case: stylized-concept. Asset type: hero illustration for a premium Korean education academy website, no typography. Create an exquisite tactile 3D still life on a warm very pale sage green seamless studio backdrop. A large beautifully crafted open cream-paper book with deep forest-green cloth cover rests diagonally on two ascending rounded plaster steps, symbolizing learning from the basics. A small botanical sprout with two rich green leaves emerges gently from the book's central spine as a poetic metaphor for growth. Beside it, one oversized golden yellow wooden pencil rests diagonally, with a pale ochre sphere and tiny green cuboid providing balance. Art direction: calm editorial education brand, sophisticated minimalist product photography, soft clay and real paper textures, believable small details, natural sunlight from upper left, long soft shadows. Forest green #17623D, muted lime #8DB33F, cream, small yellow accents. Slight elevated front three-quarter view, generous breathing room around centered arrangement, landscape ratio about 5:4. Not a classroom photo. No people, no words, no letters, no logos, no watermark, no UI.",
   "type": "AI-generated conceptual education brand illustration, not a real academy photo"
 }
