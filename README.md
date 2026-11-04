@@ -73,6 +73,14 @@ npm run preview
 - 학습 도식·아이콘: HTML/CSS/SVG.
 - Pretendard: 자체 호스팅, SIL Open Font License. `public/assets/Pretendard-LICENSE.txt` 포함.
 
+### 이미지 리서치 라이브러리 (2026-11-04)
+
+[이미지북과 리서치](https://yackak.github.io/nobase_coding_academy_prototype/image-library/)에 교육·기업 레퍼런스 22개, 스톡 후보 18개 검토 결과와 배치 계획을 정리했습니다. 새로 생성한 영어·수학·학습관리·공부 책상 이미지 4종, 선정 스톡 3종, DOCX에서 추출한 원본 로고 1종을 확보했습니다. 기존 모션 자산 5개는 별도 표시했습니다.
+
+웹용 자산은 `public/image-library/assets/`, 선정 원본은 `source-assets/library/`, 조사 근거·사용 조건·제작 프롬프트는 `research/`에 있습니다. 타사 화면과 탈락한 사진은 공개 파일에서 제외했습니다. 이미지북은 독립된 자료 페이지이며 이번 자산 확보 작업에서 메인 홈페이지의 배치는 변경하지 않았습니다.
+
+`python3 scripts/build-image-library.py`로 이미지북을 재생성하고, `python3 scripts/package-image-library.py`로 원본과 출처를 포함한 오프라인 ZIP을 만듭니다. Python 표준 라이브러리만 사용하며 홈페이지의 Node 빌드와는 별개입니다.
+
 ## 검수
 
 타입 검사와 정적 HTML 빌드를 실행하고 브라우저에서 반응형 배치, 메뉴와 상담창, 선택 과정, 키보드 학습관리, 모션 재생, 전화번호 숨김을 확인합니다. 주요 검수 폭은 320·360·390·430·768·1024·1440·1920px입니다. 상세한 이번 검수 결과는 `docs/verification.md`에 기록합니다. 실제 전화 통화와 iOS/Android 실기기는 검수 범위에 포함하지 않습니다.

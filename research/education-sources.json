@@ -1,0 +1,308 @@
+{
+  "title": "노베이스 학원 이미지 제작을 위한 교육 브랜드 조사",
+  "checked_date": "2026-11-04",
+  "source_count": 12,
+  "visually_inspected_brand_count": 9,
+  "methodology": "공식 페이지의 정보 구조와 제작 설명을 읽고, 일부 연결 이미지를 분석용 임시 폴더에서 픽셀로 확인했다. 전체 사이트를 브라우저에서 직접 관찰한 것으로 주장하지 않는다. 임시 참조 이미지는 결과물에 포함하거나 재배포하지 않는다.",
+  "sources": [
+    {
+      "id": "duolingo",
+      "brand": "Duolingo",
+      "region": "global",
+      "category": "language-learning design system",
+      "url": "https://blog.duolingo.com/shape-language-duolingos-art-style/",
+      "observation_method": "공식 제작 설명 읽기 + 글에 연결된 일러스트 실제 픽셀 확인. 홈페이지 전체 화면/현재 애니메이션은 관찰하지 않음.",
+      "visual_verified": true,
+      "observed_evidence": [
+        "공식 제작 글은 작은 화면의 명료한 실루엣, 충분한 여백, 적은 디테일을 원칙으로 설명한다.",
+        "직접 확인한 샘플은 단순한 둥근 형태와 선명한 색의 여섯 생활 장면을 흰 배경과 넓은 간격에 배치한다.",
+        "글에서 시선 유도와 아이콘 애니메이션의 목적을 별도로 설명한다."
+      ],
+      "visual_urls": [
+        "https://storage.ghost.io/c/7a/33/7a33d0f4-927d-4fe8-a6bf-96131b5e76d4/content/images/2020/06/05-sample.png"
+      ],
+      "nobase_application": "영어/수학/학습관리를 같은 카메라 각도·조명·재질·색으로 묶고, 한 이미지에 한 개의 학습 의미만 담는다. 모바일에서 구분되는 큰 실루엣과 여백을 유지한다.",
+      "avoid": "듀오 캐릭터, 고유 색상 조합과 장면을 복제하지 않는다. 중고등 대상에 과한 유아형 캐릭터를 확장하지 않는다.",
+      "source_type": "official primary source",
+      "checked_date": "2026-11-04",
+      "reuse_status": "분석용 레퍼런스. 노베이스 재사용 라이선스를 확인하지 않았으므로 파일 배포/재사용 대상에서 제외."
+    },
+    {
+      "id": "brilliant",
+      "brand": "Brilliant",
+      "region": "global",
+      "category": "math learning",
+      "url": "https://brilliant.org/",
+      "observation_method": "현재 공식 홈페이지 텍스트 + 연결된 수학 풀이/진도 이미지 실제 픽셀 확인. 실시간 제품 동작은 미관찰.",
+      "visual_verified": true,
+      "observed_evidence": [
+        "홈페이지는 설명을 듣기보다 공유 캔버스에서 단계별로 풀도록 하는 튜터와 맞춤 계획·복습을 소개한다.",
+        "수학 예시는 (x+4)(x+2) 전개를 빈칸과 선택 타일로 보여준다. 크림색 바탕과 흰 판 위에 초록 포인트를 쓴다.",
+        "진도 예시는 하나의 정확도 카드와 단순한 막대그래프로 구성된다."
+      ],
+      "visual_urls": [
+        "https://brilliant.org/cdn-cgi/image/width%3D3840%2Cquality%3D90%2Cformat%3Dauto/_next/static/media/math-visual.42ukl65x73_68.png",
+        "https://brilliant.org/cdn-cgi/image/width%3D3840%2Cquality%3D90%2Cformat%3Dauto/_next/static/media/math-progress.35i1-wci4hsvj.png"
+      ],
+      "nobase_application": "브랜드용 정물과 정확한 설명용 도식을 구분한다. 수식·축·텍스트는 생성 이미지에 맡기지 않고 SVG/HTML로 만들어 과목 전문성을 보여준다.",
+      "avoid": "노베이스가 제공하지 않는 AI 앱 UI를 만들거나, 예시 정확도/성취도를 실제 학생 성과처럼 표시하지 않는다.",
+      "source_type": "official primary source",
+      "checked_date": "2026-11-04",
+      "reuse_status": "분석용 레퍼런스. 노베이스 재사용 라이선스를 확인하지 않았으므로 파일 배포/재사용 대상에서 제외."
+    },
+    {
+      "id": "mathnasium",
+      "brand": "Mathnasium",
+      "region": "global",
+      "category": "K-12 math tutoring centers",
+      "url": "https://www.mathnasium.com/",
+      "observation_method": "공식 홈페이지 구조/문구 + 단계 아이콘 2개 실제 픽셀 확인. 메인 사진과 전체 레이아웃은 시각 검수하지 않음.",
+      "visual_verified": true,
+      "observed_evidence": [
+        "진단, 맞춤 계획, 센터/온라인 수업을 세 단계로 설명하며 각 단계에 그림을 연결한다.",
+        "직접 확인한 진단 아이콘은 체크가 달린 달력, 계획 아이콘은 체크리스트 클립보드다.",
+        "학년별 프로그램, 강사 설명, 지역 센터 찾기를 각각 제공한다."
+      ],
+      "visual_urls": [
+        "https://www.mathnasium.com/storage/app/uploads/public/689/ed6/10b/689ed610bfa82120519714.webp",
+        "https://www.mathnasium.com/storage/app/uploads/public/689/ed6/258/689ed62582ec4261829254.webp"
+      ],
+      "nobase_application": "상담 안내에는 달력·진단지·계획표 같은 구체적 물건을 쓰고, 위치는 실제 주소/입구 사진으로 연결한다.",
+      "avoid": "글로벌 체인의 평가·회원 수·성과 수치를 차용하거나 무료진단 제공을 사실 확인 없이 추가하지 않는다.",
+      "source_type": "official primary source",
+      "checked_date": "2026-11-04",
+      "reuse_status": "분석용 레퍼런스. 노베이스 재사용 라이선스를 확인하지 않았으므로 파일 배포/재사용 대상에서 제외."
+    },
+    {
+      "id": "kumon-us",
+      "brand": "Kumon USA",
+      "region": "global",
+      "category": "math and reading tutoring",
+      "url": "https://www.kumon.com/",
+      "observation_method": "공식 홈페이지 문구 + 현재 연결된 hero 사진 실제 픽셀 확인.",
+      "visual_verified": true,
+      "observed_evidence": [
+        "태블릿을 쓰는 학생 사진을 노랑 배경과 소수의 기하 도형에 결합한 hero 이미지를 확인했다.",
+        "프로그램을 3–5, 6–12, 13세 이상으로 나누고 진단을 통한 출발점과 점진적 학습을 설명한다."
+      ],
+      "visual_urls": [
+        "https://www.kumon.com/assets/images/hero/2026-Q3/q3-hero.webp"
+      ],
+      "nobase_application": "학년별 이미지의 나이감을 구분한다. 노베이스는 얼굴 없는 학습 도구 정물을 당장 사용할 수 있고, 동의받은 실제 학생/손 사진은 추후 가장 좋은 신뢰 소재가 된다.",
+      "avoid": "타사 학생 사진을 노베이스 재원생으로 보이게 쓰거나, 실제 제공하지 않는 태블릿 학습을 암시하지 않는다.",
+      "source_type": "official primary source",
+      "checked_date": "2026-11-04",
+      "reuse_status": "분석용 레퍼런스. 노베이스 재사용 라이선스를 확인하지 않았으므로 파일 배포/재사용 대상에서 제외."
+    },
+    {
+      "id": "oxford-learning",
+      "brand": "Oxford Learning",
+      "region": "global",
+      "category": "English and math tutoring",
+      "url": "https://oxfordlearning.com/",
+      "observation_method": "공식 홈페이지 문구 + 공식 학생 사진 실제 픽셀 확인. 메인 슬라이더 동작은 미관찰.",
+      "visual_verified": true,
+      "observed_evidence": [
+        "과목 선택과 연령별 프로그램 탐색을 함께 제공한다. 영어·수학·학습 습관 관련 설명을 나눠 제시한다.",
+        "직접 확인한 가로 사진에는 책상 앞 두 학생의 표정과 배경의 교실 도구가 보인다."
+      ],
+      "visual_urls": [
+        "https://oxfordlearning.com/wp-content/uploads/2024/07/HomePgFullWidthImg_schoolBoys-1.jpg"
+      ],
+      "nobase_application": "학습 도구 이미지뿐 아니라 추후 실제 수업의 집중/질문/피드백 순간을 가로 크롭으로 촬영하면 교습 관계를 전달할 수 있다.",
+      "avoid": "카메라를 보고 웃는 스톡 사진만 반복하지 않는다. 진짜 교실인 듯 보이는 임의 교실 이미지는 위치·시설 소개에 쓰지 않는다.",
+      "source_type": "official primary source",
+      "checked_date": "2026-11-04",
+      "reuse_status": "분석용 레퍼런스. 노베이스 재사용 라이선스를 확인하지 않았으므로 파일 배포/재사용 대상에서 제외."
+    },
+    {
+      "id": "aops",
+      "brand": "Art of Problem Solving",
+      "region": "global",
+      "category": "advanced math education",
+      "url": "https://artofproblemsolving.com/",
+      "observation_method": "공식 페이지 문구와 이미지 대체텍스트 확인. 실제 픽셀 미검수.",
+      "visual_verified": false,
+      "observed_evidence": [
+        "학년 5–12 대상임을 첫 부분에 명시하고 책·온라인 수업을 구분한다.",
+        "직원 소개는 인물 사진 대체텍스트, 실명, 역할, 경력 항목을 연결한다.",
+        "대회 단체 사진에는 사진 제공 기관이 함께 표기되어 있다."
+      ],
+      "visual_urls": [],
+      "nobase_application": "전문성의 핵심은 이미지 수보다 검증 가능한 사람과 자료다. 대표/강사 실사진 1장과 확인된 지도 이력, 실제 사용 자료를 후속 촬영 우선순위로 둔다.",
+      "avoid": "합격·수상·대학 로고·강사 경력을 임의로 넣지 않는다. 특정 인물을 생성해 실제 강사처럼 사용하지 않는다.",
+      "source_type": "official primary source",
+      "checked_date": "2026-11-04",
+      "reuse_status": "분석용 레퍼런스. 노베이스 재사용 라이선스를 확인하지 않았으므로 파일 배포/재사용 대상에서 제외."
+    },
+    {
+      "id": "mathflat",
+      "brand": "매쓰플랫",
+      "region": "Korea",
+      "category": "math teaching tools",
+      "url": "https://www.mathflat.com/service/consulting/",
+      "observation_method": "공식 상담·홍보 페이지 + 연결된 리포트 이미지 실제 픽셀 확인.",
+      "visual_verified": true,
+      "observed_evidence": [
+        "단원별 성취도와 취약점 분석 리포트를 학부모 상담의 근거로 설명한다.",
+        "확인한 그림은 진단 결과/우수·취약 유형 목록과 행동 영역 방사형 차트를 두 카드로 정리한다."
+      ],
+      "visual_urls": [
+        "https://www.mathflat.com/wp-content/themes/mathflat/assets/images/sub/service/consulting-column-01.webp"
+      ],
+      "nobase_application": "노베이스 학습관리 그림은 진단→계획→오답→다음 목표의 관계를 보여주면 좋다. 실제 데이터가 없으면 점수 대신 체크 항목과 짧은 피드백 예시를 쓴다.",
+      "avoid": "경쟁 서비스의 리포트 UI를 캡처해 재사용하지 않는다. 임의 점수·그래프를 실제 관리 성과로 보이게 하지 않는다.",
+      "source_type": "official primary source",
+      "checked_date": "2026-11-04",
+      "reuse_status": "분석용 레퍼런스. 노베이스 재사용 라이선스를 확인하지 않았으므로 파일 배포/재사용 대상에서 제외."
+    },
+    {
+      "id": "creverse",
+      "brand": "청담어학원 / CREVERSE",
+      "region": "Korea",
+      "category": "English academy",
+      "url": "https://cdto.creverse.com/land/cdto",
+      "observation_method": "공식 캠페인 페이지 내용 + desktop hero 그래픽 실제 픽셀 확인.",
+      "visual_verified": true,
+      "observed_evidence": [
+        "표현력(ESL)과 문해력(EFL)을 나누고 학습 목표별 로드맵을 제공한다.",
+        "확인한 hero는 흰 바탕, 큰 타이포그래피와 두 역량을 연결하는 짙은색 무한대 형태, 빨강/분홍 포인트로 구성된다.",
+        "영어 문해력 역량 맵은 별도 설명 이미지로 연결되어 있다."
+      ],
+      "visual_urls": [
+        "https://cdto.creverse.com/resource/images/land_s/win26/cd/visual04_w.png"
+      ],
+      "nobase_application": "고학년·중고등 과정에는 귀여운 소품만 쓰기보다 읽기/이해/풀이의 연결 도식을 병행한다. 녹색 한 계열로 과목 관계를 명확하게 표현한다.",
+      "avoid": "타사 캠페인 문구나 고유 무한대 형태를 복제하지 않는다. 노베이스에 없는 ESL/EFL 분리반·인증·커리큘럼을 암시하지 않는다.",
+      "source_type": "official primary source",
+      "checked_date": "2026-11-04",
+      "reuse_status": "분석용 레퍼런스. 노베이스 재사용 라이선스를 확인하지 않았으므로 파일 배포/재사용 대상에서 제외."
+    },
+    {
+      "id": "noonnoppi",
+      "brand": "대교 눈높이",
+      "region": "Korea",
+      "category": "personalized learning",
+      "url": "https://noonnoppi.daekyo.com/",
+      "observation_method": "공식 홈페이지 문구 + 전국학력진단 기기 목업 실제 픽셀 확인.",
+      "visual_verified": true,
+      "observed_evidence": [
+        "학습 진단, 교사 관리, 환경을 나누고 학년/영역에 따라 제품을 탐색하게 한다.",
+        "확인한 진단 이미지는 태블릿과 휴대전화 화면을 겹쳐 실제 서비스 분류를 보여준다."
+      ],
+      "visual_urls": [
+        "https://noonnoppi.daekyo.com/static/img/main/thumb_main_slide02_01.png"
+      ],
+      "nobase_application": "관리 예시를 한 장의 서류/노트로 구체화한다. 실제 앱이 없으므로 기기 목업보다 종이 학습 계획·피드백 카드가 현재 서비스에 더 정직하고 잘 맞는다.",
+      "avoid": "디지털 앱을 제공하지 않는데 휴대전화 앱 화면으로 보이게 연출하지 않는다. 대규모 수상 배지는 도입하지 않는다.",
+      "source_type": "official primary source",
+      "checked_date": "2026-11-04",
+      "reuse_status": "분석용 레퍼런스. 노베이스 재사용 라이선스를 확인하지 않았으므로 파일 배포/재사용 대상에서 제외."
+    },
+    {
+      "id": "kumon-korea",
+      "brand": "구몬학습 한국",
+      "region": "Korea",
+      "category": "learning method and materials",
+      "url": "https://www.kumon.co.kr/Subject/KumonStory",
+      "observation_method": "공식 브랜드 이야기 내용 + 교재 사진 실제 픽셀 확인.",
+      "visual_verified": true,
+      "observed_evidence": [
+        "출발점, 풀이 과정, 작은 단계, 반복을 각각 설명한다.",
+        "확인한 교재 사진은 여러 과목의 실제 학습지를 위에서 촬영하고 종이의 물성과 방향성 있는 그림자를 드러낸다.",
+        "강사와 학습자 이미지는 학습 방법 설명과 별도 역할로 구성된다."
+      ],
+      "visual_urls": [
+        "https://www.kumon.co.kr/Resources/images/img_story_sec06.png"
+      ],
+      "nobase_application": "전문적인 정물 방향으로 가장 잘 맞는다. 노베이스용 빈 노트/책/연필을 절제된 조명으로 만들고, 정확한 수식·본문은 자체 작성해 별도로 얹는다.",
+      "avoid": "타사 교재의 문제와 페이지를 추출하거나 교원 자료를 노베이스 교재처럼 사용하지 않는다.",
+      "source_type": "official primary source",
+      "checked_date": "2026-11-04",
+      "reuse_status": "분석용 레퍼런스. 노베이스 재사용 라이선스를 확인하지 않았으므로 파일 배포/재사용 대상에서 제외."
+    },
+    {
+      "id": "british-council",
+      "brand": "British Council LearnEnglish Teens",
+      "region": "global",
+      "category": "teen English learning",
+      "url": "https://learnenglishteens.britishcouncil.org/",
+      "observation_method": "공식 페이지 내용과 이미지 링크 메타데이터 확인. 원본 이미지 요청이 시간 초과되어 픽셀 검수하지 못함.",
+      "visual_verified": false,
+      "observed_evidence": [
+        "읽기·쓰기·듣기·말하기, 문법, 어휘, 시험을 이미지가 붙은 별도 콘텐츠 범주로 제공한다.",
+        "각 범주를 구체적 학습 행동과 연결해 설명한다."
+      ],
+      "visual_urls": [],
+      "nobase_application": "영어 이미지는 단순 알파벳 장식에 그치지 않고 리딩 노트·문장 구조·어휘 카드처럼 학습 행동을 드러내도록 만든다.",
+      "avoid": "영어 수업을 외국인 얼굴·국기·랜드마크만으로 표현하지 않는다. 연결된 Getty 이미지의 재사용 권한을 가정하지 않는다.",
+      "source_type": "official primary source",
+      "checked_date": "2026-11-04",
+      "reuse_status": "분석용 레퍼런스. 노베이스 재사용 라이선스를 확인하지 않았으므로 파일 배포/재사용 대상에서 제외."
+    },
+    {
+      "id": "ebsmath",
+      "brand": "EBSMath",
+      "region": "Korea",
+      "category": "curriculum-aligned math content",
+      "url": "https://www.ebsmath.co.kr/",
+      "observation_method": "공식 학년별 교과 구조, 콘텐츠 이름과 이미지 대체텍스트 확인. 썸네일 실제 픽셀은 미검수.",
+      "visual_verified": false,
+      "observed_evidence": [
+        "초등·중학·고교 수학을 구분하고 각 콘텐츠에 학년·단원·학습 목표를 붙인다.",
+        "초등 고학년에는 분수·비율·도형, 중학에는 문자식·일차함수, 고교에는 이차함수·도형의 방정식·함수 등을 분류한다."
+      ],
+      "visual_urls": [],
+      "nobase_application": "세 과정의 그림을 학년별 내용에 맞춘다. 초등에는 분수/도형 조각, 중등에는 방정식/좌표, 고등에는 정확한 함수/그래프를 쓸 수 있다. 실제 모집 과정과의 일치는 별도 확인한다.",
+      "avoid": "그림의 분위기만 맞추고 고등 과정까지 너무 기초적인 숫자 장면으로 통일하지 않는다. EBS 썸네일·캐릭터·문항을 무단 재사용하지 않는다.",
+      "source_type": "official primary source",
+      "checked_date": "2026-11-04",
+      "reuse_status": "분석용 레퍼런스. 노베이스 재사용 라이선스를 확인하지 않았으므로 파일 배포/재사용 대상에서 제외."
+    }
+  ],
+  "limitations": [
+    {
+      "brand": "Khan Academy",
+      "url": "https://en.khanacademy.org/",
+      "result": "검색 결과는 제공됐으나 직접 열기는 읽을 수 있는 내용이 없어 본 분석의 확정 근거에서 제외."
+    },
+    {
+      "brand": "Ringle Teens",
+      "url": "https://www.ringleteens.com/",
+      "result": "현재 페이지가 클라이언트 렌더링으로 읽을 수 있는 내용이 없어 이미지 분석을 확정하지 않음."
+    }
+  ],
+  "recommended_asset_roles": [
+    {
+      "priority": "P1",
+      "asset": "브랜드 정물 1장",
+      "brief": "밝은 크림/세이지 바탕, 초록 천 표지 책, 종이의 질감, 부드러운 상단 측광, 충분한 여백. 실제 시설·학생으로 오인되지 않는 소재.",
+      "purpose": "첫 인상과 브랜드 일관성"
+    },
+    {
+      "priority": "P1",
+      "asset": "영어 학습 정물/레이어",
+      "brief": "리딩 노트, 인덱스 카드, 연필, 탭. 생성물에는 읽어야 할 문구를 굽지 않고 HTML/SVG로 문장을 얹기.",
+      "purpose": "과목 전문성"
+    },
+    {
+      "priority": "P1",
+      "asset": "수학 학습 정물/레이어",
+      "brief": "노트·각도자·기하 도형 등 절제된 도구. 정확한 도형/축/수식은 코드로 작성.",
+      "purpose": "학년별 수학 내용을 시각화"
+    },
+    {
+      "priority": "P1",
+      "asset": "학습관리 노트/클립보드",
+      "brief": "진단·계획·복습·피드백을 표시할 정갈한 종이 표면과 체크 영역. 임의 점수·이름·학원 성과 없음.",
+      "purpose": "관리 방법을 구체적으로 이해"
+    },
+    {
+      "priority": "후속 실촬영",
+      "asset": "강사·시설·학습 기록",
+      "brief": "대표/강사 인물, 간판·건물 입구·2층 동선, 실제 교실, 익명화한 실제 피드백. 필요한 동의와 자료가 확보된 뒤 제작.",
+      "purpose": "진짜 신뢰 근거"
+    }
+  ],
+  "art_direction_conclusion": "현재 초록/크림 팔레트를 유지하되 소품의 개수를 줄이고 종이·책·도구의 물성을 일관되게 만든다. 3D 정물은 브랜드 인상, 정확한 도식은 지도 방식, 실제 사진은 사람과 장소의 신뢰를 담당하도록 역할을 구분한다."
+}

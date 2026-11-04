@@ -1,0 +1,103 @@
+{
+  "generatedAt": "2026-11-04",
+  "generator": "built-in image_gen",
+  "assets": [
+    {
+      "id": "english-reading",
+      "prompt": "Use case: stylized-concept. Asset type: original premium Korean English and mathematics academy website editorial image. Attached image is a STYLE, COLOR and MATERIAL REFERENCE ONLY, not an edit target; retain its deep forest green, warm ivory paper, restrained ochre, tactile matte finish, soft upper-left sunlight and credible physical details. Create a NEW image with the subject below. The audience is parents and students from upper elementary through high school, so mature, serene, precise, not childish, not toy-like, no cartoon face, no neon, no glowing tech. Museum-quality still-life/product photography mixed with refined 3D art, clean composition, generous breathing room, no logos, no watermark. Landscape 3:2. Keep every main object inside the central 80% for mobile crops. Do not recreate another company's image. Subject: a deep forest-green cloth-bound reading book partially open on a pale warm stone tabletop, three thick ivory vocabulary cards resting beside it, one card facing the camera with only the exact elegant dark-green letters 'Aa', the other cards entirely blank; one slender ochre pencil and a narrow sage ribbon bookmark. Elevated three-quarter camera, fine deckled paper and cloth texture, soft realistic shadows. Book has blank pages, no gibberish print. Background a seamless pale ivory/sage studio surface. A restrained visual about reading, vocabulary and expression. No plant, no extra objects, no grades or exam scores.",
+      "sourcePath": "source-assets/library/generated/english-reading.png",
+      "sourceWidth": 1536,
+      "sourceHeight": 1024,
+      "sourceBytes": 2187006,
+      "sourceSha256": "2ca2946edbe8a322a2b409340c0876b1f161c52ba3bffb26a5b259b721d461cd",
+      "variants": [
+        {
+          "path": "public/image-library/assets/generated/english-reading-800.webp",
+          "width": 799,
+          "height": 533,
+          "bytes": 32888
+        },
+        {
+          "path": "public/image-library/assets/generated/english-reading.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 118530
+        }
+      ],
+      "visualReview": "검수 완료. 인물·브랜드 로고·성과 수치 없음. 영어 Aa 표기는 정확함. 책/격자/도형은 설명용 브랜드 정물이며 실제 교재/학생 기록이 아님."
+    },
+    {
+      "id": "math-reasoning",
+      "prompt": "Use case: stylized-concept. Asset type: original premium Korean English and mathematics academy website editorial image. Attached image is a STYLE, COLOR and MATERIAL REFERENCE ONLY, not an edit target; retain its deep forest green, warm ivory paper, restrained ochre, tactile matte finish, soft upper-left sunlight and credible physical details. Create a NEW image with the subject below. The audience is parents and students from upper elementary through high school, so mature, serene, precise, not childish, not toy-like, no cartoon face, no neon, no glowing tech. Museum-quality still-life/product photography mixed with refined 3D art, clean composition, generous breathing room, no logos, no watermark. Landscape 3:2. Keep every main object inside the central 80% for mobile crops. Do not recreate another company's image. Subject: mathematical reasoning still life on the same pale warm stone tabletop. A refined frosted sage triangular set-square, a small ivory solid cube, a dark-forest-green triangular prism and an open cream grid-paper notebook with only very faint straight square grid lines; one ochre pencil lies across the near corner of the notebook. Elevated three-quarter camera, coherent solid geometry and correct physical perspective. Tactile paper, frosted acrylic and painted wood, all matte. Organized and scholarly, no scattered toy blocks, no calculator, no numerals, no equations, no text, no plant. Same serene ivory/sage seamless studio background.",
+      "sourcePath": "source-assets/library/generated/math-reasoning.png",
+      "sourceWidth": 1536,
+      "sourceHeight": 1024,
+      "sourceBytes": 1991708,
+      "sourceSha256": "b1b4644a282f9b46190ca0e3392fd304af4a156438cd21e54a723eed0a225729",
+      "variants": [
+        {
+          "path": "public/image-library/assets/generated/math-reasoning-800.webp",
+          "width": 799,
+          "height": 533,
+          "bytes": 28756
+        },
+        {
+          "path": "public/image-library/assets/generated/math-reasoning.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 93244
+        }
+      ],
+      "visualReview": "검수 완료. 인물·브랜드 로고·성과 수치 없음. 영어 Aa 표기는 정확함. 책/격자/도형은 설명용 브랜드 정물이며 실제 교재/학생 기록이 아님."
+    },
+    {
+      "id": "learning-plan",
+      "prompt": "Use case: stylized-concept. Asset type: original premium Korean English and mathematics academy website editorial image. Attached image is a STYLE, COLOR and MATERIAL REFERENCE ONLY, not an edit target; retain its deep forest green, warm ivory paper, restrained ochre, tactile matte finish, soft upper-left sunlight and credible physical details. Create a NEW image with the subject below. The audience is parents and students from upper elementary through high school, so mature, serene, precise, not childish, not toy-like, no cartoon face, no neon, no glowing tech. Museum-quality still-life/product photography mixed with refined 3D art, clean composition, generous breathing room, no logos, no watermark. Landscape 3:2. Keep every main object inside the central 80% for mobile crops. Do not recreate another company's image. Subject: a professional learning planning still life on the same pale warm stone tabletop. A closed deep-forest-green cloth notebook under a half-open warm ivory planner; the visible planner page has a sparse perfectly regular grid of thin light sage lines only, no words, no handwritten marks, no numbers. Three small muted sage/ochre index tabs, a single simple brass binder clip, and one sharpened ochre pencil aligned neatly. Elevated three-quarter camera, minimal composition with credible paper edges, warm tactile materials. The image should suggest organization, review and feedback, with no fake grades, achievement badges, checkmark trophies, people, plants or logos.",
+      "sourcePath": "source-assets/library/generated/learning-plan.png",
+      "sourceWidth": 1536,
+      "sourceHeight": 1024,
+      "sourceBytes": 2168802,
+      "sourceSha256": "4bcd256f46ac82ed0e81c37742e051d4b5ab1d101994914263311a36a4b0c42f",
+      "variants": [
+        {
+          "path": "public/image-library/assets/generated/learning-plan-800.webp",
+          "width": 799,
+          "height": 533,
+          "bytes": 32380
+        },
+        {
+          "path": "public/image-library/assets/generated/learning-plan.webp",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 118506
+        }
+      ],
+      "visualReview": "검수 완료. 인물·브랜드 로고·성과 수치 없음. 영어 Aa 표기는 정확함. 책/격자/도형은 설명용 브랜드 정물이며 실제 교재/학생 기록이 아님."
+    },
+    {
+      "id": "quiet-study",
+      "prompt": "Use case: photorealistic-natural. Asset type: wide editorial background image for a thoughtful Korean English/mathematics academy's philosophy section; a conceptual study still life, not a photograph of the actual school. Style/color reference only from attached image: forest green, warm cream, restrained ochre, soft daylight, natural tactile materials. Landscape 16:9 with generous negative space across the upper left third. Close-up of a simple light oak study desk in soft morning daylight: one open blank ivory notebook, a closed forest-green cloth book, a yellow ochre pencil, a small stack of blank index cards. Natural off-white wall far in background, subtle diagonal window-light shadows, calm balanced editorial composition, 50mm lens look, physically believable paper, gentle natural grain, slightly imperfect real materials, no overly glossy CGI. Keep main objects within central 75%. No people or hands, no recognizable room or institution, no wall signage, no words, no logos, no plant, no trophies, no staged achievement cues. Actual opaque background.",
+      "sourcePath": "source-assets/library/generated/quiet-study.png",
+      "sourceWidth": 1672,
+      "sourceHeight": 941,
+      "sourceBytes": 2136741,
+      "sourceSha256": "4c4b2b52eed576d8a62c04dda5611c8d9645429f57b27e8e73f7463a4d3bd3fb",
+      "variants": [
+        {
+          "path": "public/image-library/assets/generated/quiet-study-800.webp",
+          "width": 800,
+          "height": 450,
+          "bytes": 34222
+        },
+        {
+          "path": "public/image-library/assets/generated/quiet-study.webp",
+          "width": 1599,
+          "height": 900,
+          "bytes": 126812
+        }
+      ],
+      "visualReview": "검수 완료. 인물·브랜드 로고·성과 수치 없음. 영어 Aa 표기는 정확함. 책/격자/도형은 설명용 브랜드 정물이며 실제 교재/학생 기록이 아님."
+    }
+  ],
+  "processing": "생성 PNG 원본 보관. 내용·색·구도 변경 없이 비율 유지 축소 및 WebP quality88 변환. 요청한 비율과 실제 출력 치수 모두 기록."
+}

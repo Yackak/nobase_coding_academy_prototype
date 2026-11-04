@@ -1,0 +1,115 @@
+{
+  "date": "2026-11-04",
+  "newAssetCount": 8,
+  "generated": [
+    {
+      "id": "english-reading",
+      "title": "영어 · 읽고 이해하는 힘",
+      "recommendedPlacement": "영어 교육과정 소개",
+      "alt": "초록 천 표지의 펼친 책, Aa 단어 카드와 연필",
+      "path": "assets/generated/english-reading.webp",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 118530,
+      "sourceSha256": "2ca2946edbe8a322a2b409340c0876b1f161c52ba3bffb26a5b259b721d461cd",
+      "type": "AI-generated conceptual still life; not an actual academy photo"
+    },
+    {
+      "id": "math-reasoning",
+      "title": "수학 · 생각을 쌓는 과정",
+      "recommendedPlacement": "수학 교육과정 소개",
+      "alt": "격자 노트 위 삼각자와 정육면체, 초록 삼각기둥",
+      "path": "assets/generated/math-reasoning.webp",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 93244,
+      "sourceSha256": "b1b4644a282f9b46190ca0e3392fd304af4a156438cd21e54a723eed0a225729",
+      "type": "AI-generated conceptual still life; not an actual academy photo"
+    },
+    {
+      "id": "learning-plan",
+      "title": "학습관리 · 매일의 작은 기록",
+      "recommendedPlacement": "학습관리 소개 또는 상담 자료",
+      "alt": "초록 노트 위 펼친 격자 플래너와 색 인덱스",
+      "path": "assets/generated/learning-plan.webp",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 118506,
+      "sourceSha256": "4bcd256f46ac82ed0e81c37742e051d4b5ab1d101994914263311a36a4b0c42f",
+      "type": "AI-generated conceptual still life; not an actual academy photo"
+    },
+    {
+      "id": "quiet-study",
+      "title": "공부의 시간 · 차분한 몰입",
+      "recommendedPlacement": "학원 철학 소개 또는 콘텐츠 표지",
+      "alt": "햇빛이 드는 나무 책상 위 빈 노트와 초록 책",
+      "path": "assets/generated/quiet-study.webp",
+      "width": 1599,
+      "height": 900,
+      "bytes": 126812,
+      "sourceSha256": "4c4b2b52eed576d8a62c04dda5611c8d9645429f57b27e8e73f7463a4d3bd3fb",
+      "type": "AI-generated conceptual still life; not an actual academy photo"
+    }
+  ],
+  "stock": [
+    {
+      "id": "ann-open-diary",
+      "creator": "Ann poan",
+      "provider": "Pexels",
+      "photoPage": "https://www.pexels.com/photo/opened-diary-with-pencil-placed-on-desk-5797898/",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "recommendedUse": "수강 안내 또는 학습 계획 섹션의 보조 이미지",
+      "altKo": "흰 책상 위 펼친 주간 노트와 검은 연필",
+      "webSize": [
+        933,
+        1400
+      ],
+      "webBytes": 51570,
+      "caveat": "일반 스톡 이미지로 표기. 실제 노베이스의 학습기록/시간표가 아니며 인쇄된 영문 요일이 보인다.",
+      "path": "assets/stock/ann-open-diary.webp"
+    },
+    {
+      "id": "thought-catalog-pencil",
+      "creator": "Thought Catalog",
+      "provider": "Unsplash",
+      "photoPage": "https://unsplash.com/photos/person-holding-pencil-writing-on-notebook-RdmLSJR-tq8",
+      "licenseUrl": "https://unsplash.com/license",
+      "recommendedUse": "학습 철학의 학습 장면 또는 콘텐츠용 배너",
+      "altKo": "줄노트 위에 연필을 쥔 손과 연필 부스러기",
+      "webSize": [
+        1400,
+        933
+      ],
+      "webBytes": 52982,
+      "caveat": "연필 부스러기와 붉은 노트 가장자리가 보여 깨끗한 3D 대표 이미지 옆에서 적게 사용. 실제 재원생·강사의 손이라는 설명 금지.",
+      "path": "assets/stock/thought-catalog-pencil.webp"
+    },
+    {
+      "id": "2h-plant-books",
+      "creator": "2H Media",
+      "provider": "Unsplash",
+      "photoPage": "https://unsplash.com/photos/a-small-potted-plant-sitting-on-top-of-a-stack-of-books-HujBXdflxK0",
+      "licenseUrl": "https://unsplash.com/license",
+      "recommendedUse": "철학 섹션 배너 또는 블로그 표지",
+      "altKo": "무지 노트 세 권 위 흰 화분의 작은 초록 식물",
+      "webSize": [
+        1400,
+        787
+      ],
+      "webBytes": 33772,
+      "caveat": "상징적인 성장 이미지다. 실제 학원 시설·비품으로 오인시키는 설명 금지.",
+      "path": "assets/stock/2h-plant-books.webp"
+    }
+  ],
+  "logo": {
+    "path": "assets/extracted/nobase-logo.webp",
+    "width": 628,
+    "height": 390,
+    "originalSize": [
+      1254,
+      779
+    ],
+    "source": "User-provided website planning DOCX, word/media/image1.png",
+    "originalPath": "source-assets/library/originals/nobase-logo-original.png"
+  }
+}

@@ -5,3 +5,13 @@ qa/
 node_modules/
 dist/
 .ssr/
+
+# Local source-audit copies and rejected stock; selected originals are tracked explicitly.
+source-assets/library/extracted/
+research/stock-rejected-previews/
+source-assets/library/stock/kelly-open-notebook.jpg
+source-assets/library/stock/john-pencil-notebook.jpg
+source-assets/library/stock/2h-notebook-tools.jpg
+source-assets/library/stock/tima-desk-notebook.jpg
+source-assets/library/stock/tima-writing-hand.jpg
+outputs/

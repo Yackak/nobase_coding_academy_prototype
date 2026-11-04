@@ -1,0 +1,222 @@
+[
+  {
+    "sourceDocument": "노베이스학원_모바일상세기획서_v1.0.docx",
+    "part": "word/media/image1.png",
+    "path": "source-assets/library/extracted/mobile-image1.png",
+    "width": 2610,
+    "height": 1650,
+    "bytes": 590880,
+    "sha256": "80c005ca5e95f26f925e41b2128c53f864547560091050d7be1f5979e6f55eab",
+    "classification": "planning-layout-reference",
+    "usage": "기획용 화면·구조·팔레트 자료. 실제 학원 사진이 아니며 이미지 자산으로 재사용하지 않음."
+  },
+  {
+    "sourceDocument": "노베이스학원_모바일상세기획서_v1.0.docx",
+    "part": "word/media/image2.png",
+    "path": "source-assets/library/extracted/mobile-image2.png",
+    "width": 1230,
+    "height": 844,
+    "bytes": 197346,
+    "sha256": "55c9e1860938abfd86fecf9cd400c49960be4b9d2458e1fdc1be413618cb1dd8",
+    "classification": "reference-only-third-party-screenshot",
+    "usage": "기획서에 포함된 다른 기업 화면. 분석 참고용이며 라이브러리/배포 이미지로 재사용하지 않음."
+  },
+  {
+    "sourceDocument": "노베이스학원_모바일상세기획서_v1.0.docx",
+    "part": "word/media/image3.png",
+    "path": "source-assets/library/extracted/mobile-image3.png",
+    "width": 2760,
+    "height": 2820,
+    "bytes": 238911,
+    "sha256": "332db9da8724d905c33704005b0860da2c8da1453638b9416f81f39caed0e087",
+    "classification": "planning-layout-reference",
+    "usage": "기획용 화면·구조·팔레트 자료. 실제 학원 사진이 아니며 이미지 자산으로 재사용하지 않음."
+  },
+  {
+    "sourceDocument": "노베이스학원_모바일상세기획서_v1.0.docx",
+    "part": "word/media/image4.png",
+    "path": "source-assets/library/extracted/mobile-image4.png",
+    "width": 2760,
+    "height": 2820,
+    "bytes": 248430,
+    "sha256": "872cc24faae4679f07ded27ec17b7c993556dfb15e69e6be1b0ad15558705241",
+    "classification": "planning-layout-reference",
+    "usage": "기획용 화면·구조·팔레트 자료. 실제 학원 사진이 아니며 이미지 자산으로 재사용하지 않음."
+  },
+  {
+    "sourceDocument": "노베이스학원_모바일상세기획서_v1.0.docx",
+    "part": "word/media/image5.png",
+    "path": "source-assets/library/extracted/mobile-image5.png",
+    "width": 2760,
+    "height": 2820,
+    "bytes": 237976,
+    "sha256": "c1e8fac86e3033d0b9d43c91b811e762e537c5607d593845641f3f65371e2038",
+    "classification": "planning-layout-reference",
+    "usage": "기획용 화면·구조·팔레트 자료. 실제 학원 사진이 아니며 이미지 자산으로 재사용하지 않음."
+  },
+  {
+    "sourceDocument": "노베이스학원_모바일상세기획서_v1.0.docx",
+    "part": "word/media/image6.png",
+    "path": "source-assets/library/extracted/mobile-image6.png",
+    "width": 2760,
+    "height": 2820,
+    "bytes": 255650,
+    "sha256": "15a5cb8d9c770ac0dfb4be9a73e9f236635c5fbe1ec186c3ee6ea3165b1f87a6",
+    "classification": "planning-layout-reference",
+    "usage": "기획용 화면·구조·팔레트 자료. 실제 학원 사진이 아니며 이미지 자산으로 재사용하지 않음."
+  },
+  {
+    "sourceDocument": "노베이스학원_웹사이트기획서_v1.0.docx",
+    "part": "word/media/image1.png",
+    "path": "source-assets/library/extracted/website-image1.png",
+    "width": 1254,
+    "height": 779,
+    "bytes": 586446,
+    "sha256": "b500b8e55143954cd27eb333f90104723e80d6353d91056ebc893c45a70379e6",
+    "classification": "usable-original-logo",
+    "usage": "사용자 제공 원본 로고. 1254×779. 실제 사이트용 후보로 별도 보관."
+  },
+  {
+    "sourceDocument": "노베이스학원_웹사이트기획서_v1.0.docx",
+    "part": "word/media/image2.png",
+    "path": "source-assets/library/extracted/website-image2.png",
+    "width": 2560,
+    "height": 1528,
+    "bytes": 1272159,
+    "sha256": "08467b01429c59bf417e0d19a9a8c4969dd641ee729fb39258b21efd864fe7d8",
+    "classification": "historical-site-screenshot",
+    "usage": "기획 당시 현황 진단용. 다른 업종 사진이므로 사이트 이미지로 재사용하지 않음."
+  },
+  {
+    "sourceDocument": "노베이스학원_웹사이트기획서_v1.0.docx",
+    "part": "word/media/image3.png",
+    "path": "source-assets/library/extracted/website-image3.png",
+    "width": 1440,
+    "height": 1000,
+    "bytes": 86502,
+    "sha256": "97ebfc2b44ef2af83684a1e95a074de0696218c165c26a7caa13d7d82b039ef7",
+    "classification": "reference-only-third-party-screenshot",
+    "usage": "기획서에 포함된 다른 기업 화면. 분석 참고용이며 라이브러리/배포 이미지로 재사용하지 않음."
+  },
+  {
+    "sourceDocument": "노베이스학원_웹사이트기획서_v1.0.docx",
+    "part": "word/media/image4.png",
+    "path": "source-assets/library/extracted/website-image4.png",
+    "width": 1440,
+    "height": 950,
+    "bytes": 179731,
+    "sha256": "5f0c3d281b70a684fa02b25c2ab2d46b82ce54f7d32574f0908896e2f83c7050",
+    "classification": "reference-only-third-party-screenshot",
+    "usage": "기획서에 포함된 다른 기업 화면. 분석 참고용이며 라이브러리/배포 이미지로 재사용하지 않음."
+  },
+  {
+    "sourceDocument": "노베이스학원_웹사이트기획서_v1.0.docx",
+    "part": "word/media/image5.png",
+    "path": "source-assets/library/extracted/website-image5.png",
+    "width": 1440,
+    "height": 650,
+    "bytes": 59601,
+    "sha256": "c61b0fae3459c84027e78a3bfa4fcaf3682b52abc41e83acc2d55bfa6201d26d",
+    "classification": "reference-only-third-party-screenshot",
+    "usage": "기획서에 포함된 다른 기업 화면. 분석 참고용이며 라이브러리/배포 이미지로 재사용하지 않음."
+  },
+  {
+    "sourceDocument": "노베이스학원_웹사이트기획서_v1.0.docx",
+    "part": "word/media/image6.png",
+    "path": "source-assets/library/extracted/website-image6.png",
+    "width": 1440,
+    "height": 1000,
+    "bytes": 104811,
+    "sha256": "9630aa485050c9692acaf079ea3c4905be1167c316c5395b766ee41a9eb19954",
+    "classification": "reference-only-third-party-screenshot",
+    "usage": "기획서에 포함된 다른 기업 화면. 분석 참고용이며 라이브러리/배포 이미지로 재사용하지 않음."
+  },
+  {
+    "sourceDocument": "노베이스학원_웹사이트기획서_v1.0.docx",
+    "part": "word/media/image7.png",
+    "path": "source-assets/library/extracted/website-image7.png",
+    "width": 1440,
+    "height": 950,
+    "bytes": 186807,
+    "sha256": "19bd07262da9ff7e669ddecbcb4790094cbdc02012e68054d5b45ee5d2968375",
+    "classification": "reference-only-third-party-screenshot",
+    "usage": "기획서에 포함된 다른 기업 화면. 분석 참고용이며 라이브러리/배포 이미지로 재사용하지 않음."
+  },
+  {
+    "sourceDocument": "노베이스학원_웹사이트기획서_v1.0.docx",
+    "part": "word/media/image8.png",
+    "path": "source-assets/library/extracted/website-image8.png",
+    "width": 1440,
+    "height": 1000,
+    "bytes": 807881,
+    "sha256": "991c5611bec69c9592406323ec7f9a938e92e3795d0678f21105a816ed023d34",
+    "classification": "reference-only-third-party-screenshot",
+    "usage": "기획서에 포함된 다른 기업 화면. 분석 참고용이며 라이브러리/배포 이미지로 재사용하지 않음."
+  },
+  {
+    "sourceDocument": "노베이스학원_웹사이트기획서_v1.0.docx",
+    "part": "word/media/image9.png",
+    "path": "source-assets/library/extracted/website-image9.png",
+    "width": 1440,
+    "height": 950,
+    "bytes": 851523,
+    "sha256": "c40eefd9a9b46b53d91dc39139b710617302f4224b93b05c41f0d3fd0ccca90a",
+    "classification": "reference-only-third-party-screenshot",
+    "usage": "기획서에 포함된 다른 기업 화면. 분석 참고용이며 라이브러리/배포 이미지로 재사용하지 않음."
+  },
+  {
+    "sourceDocument": "노베이스학원_웹사이트기획서_v1.0.docx",
+    "part": "word/media/image10.png",
+    "path": "source-assets/library/extracted/website-image10.png",
+    "width": 1440,
+    "height": 950,
+    "bytes": 134506,
+    "sha256": "0fb1b1e0be9c8fb12569110b5d388fb4d7f698fb6599656de7e611243a82a819",
+    "classification": "reference-only-third-party-screenshot",
+    "usage": "기획서에 포함된 다른 기업 화면. 분석 참고용이며 라이브러리/배포 이미지로 재사용하지 않음."
+  },
+  {
+    "sourceDocument": "노베이스학원_웹사이트기획서_v1.0.docx",
+    "part": "word/media/image11.png",
+    "path": "source-assets/library/extracted/website-image11.png",
+    "width": 1500,
+    "height": 560,
+    "bytes": 54724,
+    "sha256": "40e5086c7a0f22ea4a6078d24578428ca0fb6a4d3f4eaa58b8e111417e8360a1",
+    "classification": "planning-layout-reference",
+    "usage": "기획용 화면·구조·팔레트 자료. 실제 학원 사진이 아니며 이미지 자산으로 재사용하지 않음."
+  },
+  {
+    "sourceDocument": "노베이스학원_웹사이트기획서_v1.0.docx",
+    "part": "word/media/image12.png",
+    "path": "source-assets/library/extracted/website-image12.png",
+    "width": 1440,
+    "height": 1000,
+    "bytes": 108615,
+    "sha256": "552359b314d4d176f9d03b8473a2ad23fb48d65b3218ab0fcf51e2e467170945",
+    "classification": "planning-layout-reference",
+    "usage": "기획용 화면·구조·팔레트 자료. 실제 학원 사진이 아니며 이미지 자산으로 재사용하지 않음."
+  },
+  {
+    "sourceDocument": "노베이스학원_웹사이트기획서_v1.0.docx",
+    "part": "word/media/image13.png",
+    "path": "source-assets/library/extracted/website-image13.png",
+    "width": 1440,
+    "height": 1170,
+    "bytes": 130431,
+    "sha256": "dbf84592106ffcaf930190d6314d41909a5c18ae278a77f1f4632040321a2a34",
+    "classification": "planning-layout-reference",
+    "usage": "기획용 화면·구조·팔레트 자료. 실제 학원 사진이 아니며 이미지 자산으로 재사용하지 않음."
+  },
+  {
+    "sourceDocument": "노베이스학원_웹사이트기획서_v1.0.docx",
+    "part": "word/media/image14.png",
+    "path": "source-assets/library/extracted/website-image14.png",
+    "width": 1450,
+    "height": 300,
+    "bytes": 21413,
+    "sha256": "c37c7ee4c62f0707fbafdf7bf08e0d2915a25775f1d5f6e4801a215cf087575c",
+    "classification": "planning-layout-reference",
+    "usage": "기획용 화면·구조·팔레트 자료. 실제 학원 사진이 아니며 이미지 자산으로 재사용하지 않음."
+  }
+]

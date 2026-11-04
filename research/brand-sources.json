@@ -1,0 +1,272 @@
+{
+  "researched_at": "2026-11-04",
+  "scope": "교육 외 10개 주요 기업/브랜드의 공식 제작기·디자인 가이드 + 3개 보충 자료",
+  "method": "공식 페이지 본문, 캡션, 대체 설명을 열람했다. 현재 사이트의 실제 애니메이션 프레임이나 성능을 별도로 측정한 연구는 아니다. Headspace 모션 페이지는 검색 인덱스 기반 확인이라고 개별 표기했다.",
+  "copyright_handling": "자료의 원본 이미지·영상·로고를 다운로드하거나 재사용하지 않았다. 아래 적용안은 노베이스를 위한 독립적 해석이며 출처가 효과를 보증한다는 뜻이 아니다.",
+  "sources": [
+    {
+      "brand": "Toss",
+      "title": "토스의 AI 그래픽 생성기, 토스트를 소개합니다 #1",
+      "url": "https://toss.tech/article/24055",
+      "published": "2023-12-21",
+      "primary_type": "토스 그래픽디자이너의 공식 제작기",
+      "evidence_mode": "공식 본문 직접 열람. 이미지 픽셀이나 현재 홈페이지 모션을 직접 검수한 기록은 아님.",
+      "documented_findings": [
+        "의미 없는 요소는 덜어내되 남은 형태와 텍스처의 완성도를 높인다고 설명한다.",
+        "AI 생성 전에 그래픽 톤을 정의하고, 유형별 옵션과 프롬프트를 일관되게 관리했다."
+      ],
+      "nobase_inference": "이미지 수를 늘리기 전에 카메라 각도·초록색 범위·종이 질감·조명 방향을 하나의 제작 규격으로 고정한다. 영어/수학/학습관리 소재도 같은 규격에서 만든다.",
+      "asset_recommendation": "공통 제작 프롬프트 1개와 용도별 피사체 변형 3개. 나열식 장식 대신 각 이미지에 하나의 학습 의미를 부여.",
+      "do_not_copy": "토스의 그래픽 원본, 브랜드 캐릭터, 기존 이미지 학습 세트를 복제하지 않는다.",
+      "limitation": "2023년 사내 시스템 제작기이며 현재 토스 홈페이지의 제작 스택이나 성능을 설명하지 않는다."
+    },
+    {
+      "brand": "Dropbox",
+      "title": "Imagery — Dropbox Brand Guidelines",
+      "url": "https://brand.dropbox.com/imagery",
+      "published": null,
+      "primary_type": "공식 브랜드 가이드",
+      "evidence_mode": "본문과 게시된 이미지 대체 설명 직접 열람.",
+      "documented_findings": [
+        "사진은 실제 사례와 고객 이야기, 일러스트는 추상적·복잡한 개념, 제품 시각물은 구체적 기능을 설명하는 용도로 구분한다.",
+        "일러스트를 Hero / Spot / Mini로 분류하고, 실제 고객 파일을 이야기의 근거로 보여준다."
+      ],
+      "nobase_inference": "학원 인상용 일러스트, 영어·수학 개념 도식, 실제 학원 사진은 역할이 다르다. 한 가지 3D 그림으로 모든 신뢰 정보를 대체하지 않는다.",
+      "asset_recommendation": "대표 장면 1개, 과목별 설명 소재, 실제 수업/교재/공간 사진의 별도 슬롯. 실제 사진이 없으면 학원 사진처럼 보이는 합성 장면으로 채우지 않는다.",
+      "do_not_copy": "Dropbox 예시 사진·고객 파일·일러스트를 가져오지 않는다.",
+      "limitation": "브랜드 가이드의 설명을 근거로 한 적용안이며 전환율 효과는 측정하지 않았다."
+    },
+    {
+      "brand": "Atlassian",
+      "title": "Illustrations — Atlassian Design",
+      "url": "https://atlassian.design/foundations/illustrations/",
+      "published": null,
+      "primary_type": "공식 디자인 시스템",
+      "evidence_mode": "본문과 예시 이미지의 대체 설명 직접 열람.",
+      "documented_findings": [
+        "Spot은 하나의 개념, Low-fidelity UI는 복잡한 과정, Ambient pattern은 배경의 개성에 쓰는 것으로 구분한다.",
+        "일러스트의 필요성을 먼저 판단하고, 과도한 그림이 인지 부담을 늘린다고 설명한다.",
+        "앱 안에서는 실제 스크린샷보다 단순화한 UI로 복잡한 흐름을 설명하도록 권한다."
+      ],
+      "nobase_inference": "상담 버튼 주변에는 이미지를 추가하지 않고, 학습관리 노트는 읽을 수 있는 HTML 예시로 유지한다. 과목 그림은 각각 하나의 역할만 갖게 한다.",
+      "asset_recommendation": "영어 읽기 Spot 1개, 수학 사고 Spot 1개. 복습·피드백은 기존 코드 도식을 보완하고 래스터 이미지로 대체하지 않는다.",
+      "do_not_copy": "내부 전용 라이브러리 링크에 접근하거나 자산을 재사용하지 않는다.",
+      "limitation": "제품 UI 중심 지침이다. 마케팅 랜딩 페이지에는 적용 범위를 판단해야 하며 콜라주 금지를 홈페이지 전체 규칙으로 일반화하지 않았다."
+    },
+    {
+      "brand": "Notion",
+      "title": "The thinking behind our latest brand campaign",
+      "url": "https://www.notion.com/blog/the-thinking-behind-our-latest-brand-campaign",
+      "published": "2024-07-10",
+      "primary_type": "Head of Creative Strategy & Operations의 공식 제작기",
+      "evidence_mode": "본문과 이미지 캡션 직접 열람.",
+      "documented_findings": [
+        "기존 일러스트의 정체성을 유지하며 캠페인 표현을 확장했다.",
+        "멀리서 전신을 보여주는 구도에서 가까운 시점으로 옮겨 주인공과 생각의 과정을 강조했다고 설명한다.",
+        "앱 안에서는 밝은 색을 절제하고, 옥외 광고에서는 주목을 위해 강한 색을 사용한다고 구분한다."
+      ],
+      "nobase_inference": "광고용 강렬함을 본문에 그대로 가져오기보다, 학습 도구와 종이의 디테일을 가까이 보여준다. 학원 홈에서는 크림·초록 중심의 좁은 팔레트를 지킨다.",
+      "asset_recommendation": "전체 교실을 꾸며낸 사진보다, 실제 교재·필기·교사의 피드백을 가까이 촬영하는 구도 계획. 지금 만들 자료는 텍스트 없는 도구 디테일.",
+      "do_not_copy": "Roman Muradov의 구체적 화풍·캐릭터·캠페인 그림을 복제하지 않는다.",
+      "limitation": "2024 캠페인 제작기이며 현재 제품 UI의 전체 디자인 규칙을 대변하지 않는다."
+    },
+    {
+      "brand": "Linear",
+      "title": "A calmer interface for a product in motion",
+      "url": "https://linear.app/now/behind-the-latest-design-refresh",
+      "published": "2026-03-12",
+      "primary_type": "공식 디자인팀 리뉴얼 기록",
+      "evidence_mode": "본문과 비교 이미지 설명 직접 열람.",
+      "documented_findings": [
+        "주 작업 영역에 집중하도록 탐색 요소의 시각적 무게를 줄였다고 설명한다.",
+        "아이콘 사용량·크기를 줄이고 불필요한 컬러 배경을 제거했다.",
+        "경계선과 분리선의 대비를 부드럽게 하고 더 따뜻하지만 낮은 채도의 중성색을 검토했다."
+      ],
+      "nobase_inference": "전문성은 더 많은 장식보다 정보 위계에서 나온다. 새 자산을 모두 한 화면에 배치하지 않고 대표 이미지와 학습 증거에 우선순위를 준다.",
+      "asset_recommendation": "연한 배경의 이미지 3개를 라이브러리로 확보하되 실제 홈페이지에는 1~2개씩 선택 적용. 카드마다 3D·아이콘·배경무늬를 중첩하지 않는다.",
+      "do_not_copy": "Linear의 제품 스크린샷과 로고를 노베이스 자산으로 사용하지 않는다.",
+      "limitation": "앱 인터페이스 리뉴얼 원칙을 학원 랜딩에 해석한 것으로, 동일 스타일 적용이 정답이라는 주장은 아니다."
+    },
+    {
+      "brand": "Headspace",
+      "title": "Motion — Headspace Brand Guidelines",
+      "url": "https://live.standards.site/headspace/motion",
+      "published": "2024-09",
+      "primary_type": "브랜드 팀의 공식 가이드 호스팅 페이지",
+      "evidence_mode": "검색 인덱스에 제공된 공식 페이지 본문 확인. 직접 open은 읽을 수 있는 본문을 반환하지 않아 현재 라이브 영상의 프레임을 확인하지 못했다.",
+      "documented_findings": [
+        "움직임에 명확한 위계와 속도 조절을 두어 시선을 의도적으로 안내하도록 설명한다.",
+        "레이어와 작은 주변 동작으로 공간감을 만들고, 일러스트의 맥락을 분명히 하도록 지시한다."
+      ],
+      "nobase_inference": "새싹이 먼저 자라고 연필이 정리되는 한 가지 짧은 이야기만 유지한다. 모든 사물이 영구 반복 부유하도록 만들지 않는다.",
+      "asset_recommendation": "같은 앵커 위치의 시작/완료 자세, 개별 투명 레이어, 최종 정지 구도를 함께 제작한다.",
+      "do_not_copy": "Headspace 캐릭터·표정·정식 라이브러리 자산을 사용하지 않는다.",
+      "limitation": "검색 인덱스 기반 본문 확인임을 명시. 페이지에 표기된 12/24/60fps 가이드를 웹사이트의 필수 수치로 옮기지 않는다."
+    },
+    {
+      "brand": "IBM",
+      "title": "Illustration — Overview; Tips and techniques",
+      "url": "https://www.ibm.com/design/language/illustration/overview/",
+      "supporting_urls": [
+        "https://www.ibm.com/design/language/illustration/tips-and-techniques/"
+      ],
+      "published": null,
+      "primary_type": "공식 IBM Design Language",
+      "evidence_mode": "두 가이드 본문과 이미지 대체 설명 직접 열람.",
+      "documented_findings": [
+        "그리드·형태·각도·모서리의 일관성과 필요 요소만 남기는 명확함을 중요하게 다룬다.",
+        "일러스트를 추상/구체, 미시/거시, 낮은/높은 정밀도 등 목적에 맞게 선택하도록 설명한다.",
+        "Hero 그림은 더 풍부해도 균형과 초점을 유지해야 한다고 명시한다."
+      ],
+      "nobase_inference": "대표 장면은 풍부한 종이·목재 질감을 쓰되 과정 그림은 더 단순하게 만든다. 과목별 이미지의 카메라, 크기, 여백은 같은 규격으로 맞춘다.",
+      "asset_recommendation": "4:3 과목 Spot 세트와 16:9 설명용 사진을 별도 규격으로 제작. 같은 사물의 전체 장면/근접 디테일을 선택할 수 있게 원본을 보관.",
+      "do_not_copy": "IBM의 도식이나 삽화 자체 대신 목적·규격 체계만 참고한다.",
+      "limitation": "이 연구에서는 가이드의 픽셀 샘플을 직접 시각 검수하지 않았다."
+    },
+    {
+      "brand": "Apple",
+      "title": "Images — Human Interface Guidelines",
+      "url": "https://developer.apple.com/design/human-interface-guidelines/images",
+      "supporting_urls": [
+        "https://developer.apple.com/design/human-interface-guidelines/images.md"
+      ],
+      "published": null,
+      "primary_type": "공식 HIG",
+      "evidence_mode": "공식 페이지가 제공하는 Markdown 본문 직접 읽음. 최신 변경 기록은 2025-12-16.",
+      "documented_findings": [
+        "다양한 화면 해상도에서 이미지 선명도를 검사하고 색 프로파일을 포함하도록 권한다.",
+        "tvOS 레이어 이미지 지침은 전경·중경·배경의 역할, 절제된 깊이, 이동·확대 시 잘림을 피하는 안전 영역을 설명한다."
+      ],
+      "nobase_inference": "웹사이트에서도 중요한 사물이 모바일 크롭과 모션 이동에 잘리지 않도록 여백을 설계한다. 고해상도 원본과 가벼운 웹용 파일을 분리 보관한다.",
+      "asset_recommendation": "각 파일에 사용 비율과 초점 위치, 안전 여백, 대체 정지 이미지 규칙을 기록. 투명 레이어는 실제 배경 위에서 가장자리를 검사.",
+      "do_not_copy": "Apple 제품 사진·앱 아이콘·전용 리소스를 사용하지 않는다.",
+      "limitation": "tvOS와 앱 이미지 지침을 웹 디자인에 해석한 것이며 tvOS 포맷/배경 규칙을 웹의 의무 요건으로 취급하지 않는다."
+    },
+    {
+      "brand": "Stripe",
+      "title": "Connect: behind the front-end experience",
+      "url": "https://stripe.com/blog/connect-front-end-experience",
+      "published": "2017-06-19",
+      "primary_type": "공식 Stripe 디자인팀 기술 제작기",
+      "evidence_mode": "본문 직접 열람. 2017년 장면에 대한 작성자의 설명이며 현재 홈페이지 동작 관찰이 아님.",
+      "documented_findings": [
+        "Connect의 구성 요소를 큐브라는 시각적 비유로 표현했고 공통 광원을 적용했다고 설명한다.",
+        "장치 그래픽을 CSS로 제작해 용량·선명도·반응형 제어를 개선한 사례를 제공한다.",
+        "사용자 성능·접근성·대체 동작에 맞춰 CSS, SVG, 래스터 등 표현 수단을 고르도록 설명한다."
+      ],
+      "nobase_inference": "질감 있는 책·문구는 래스터로, 정확해야 하는 문장·수학식·체크 표시는 HTML/SVG로 만든다. 모든 시각물을 생성 이미지에 맡기지 않는다.",
+      "asset_recommendation": "생성 이미지에는 읽어야 할 한글·수학식을 넣지 않고 화면 텍스트로 조합할 깨끗한 노트/교재 소재를 준비.",
+      "do_not_copy": "Stripe 큐브·제품 기기·마케팅 그래픽의 구체적 구도는 복제하지 않는다.",
+      "limitation": "역사적 제작 사례다. 2017년 브라우저 지원 표나 API 우선순위를 2026의 최신 기술 조언으로 재사용하지 않는다."
+    },
+    {
+      "brand": "Shopify",
+      "title": "Visual design",
+      "url": "https://shopify.dev/docs/apps/design/visual-design",
+      "published": null,
+      "primary_type": "공식 개발자 디자인 가이드",
+      "evidence_mode": "본문과 이미지 대체 설명 직접 열람.",
+      "documented_findings": [
+        "의미 있는 시각적 비유와 일관된 일러스트 스타일로 개성과 인지도를 강화한다고 설명한다.",
+        "브랜드 표현은 가볍게 유지하며 일반 UI와 레이아웃을 일관되게 유지하도록 권한다.",
+        "작은 아이콘에는 지나친 텍스트를 넣지 않고 안전 여백을 확보하도록 안내한다."
+      ],
+      "nobase_inference": "이미지 라이브러리를 늘려도 버튼·카드·글꼴의 현재 규칙은 유지한다. 작은 과목 썸네일은 피사체와 색만으로 식별되게 한다.",
+      "asset_recommendation": "텍스트 없는 과목 소재 + 별도 HTML 제목. 이미지마다 크기·라이선스·대체문구를 함께 관리.",
+      "do_not_copy": "Shopify/Polaris 삽화와 로고를 노베이스의 고유 자산으로 가져오지 않는다.",
+      "limitation": "Shopify 앱의 사용 맥락이다. 해당 서비스의 색상 의미나 앱 아이콘 규격을 노베이스에 그대로 적용하지 않는다."
+    }
+  ],
+  "supplementary_sources": [
+    {
+      "brand": "Dropbox",
+      "title": "Motion — Dropbox Brand Guidelines",
+      "url": "https://brand.dropbox.com/motion",
+      "evidence_mode": "본문 직접 열람",
+      "findings": "움직임은 적은 요소에 집중하고, 이해·즉각적인 피드백·절제된 즐거움을 위해 사용한다.",
+      "nobase_inference": "첫 화면 1회 재생 후 정지와 선택에 반응하는 학습관리 노트를 유지."
+    },
+    {
+      "brand": "Headspace / Apple",
+      "title": "Behind the Design: Headspace",
+      "url": "https://developer.apple.com/news/?id=fkfnhq8u",
+      "published": "2023-06-05",
+      "evidence_mode": "당사 제품 책임자 인터뷰를 담은 공식 Apple Developer 기사",
+      "findings": "따뜻한 색과 일러스트로 접근성을 높이고, 정보가 많은 라이브러리를 이해하기 쉬운 목적 단위로 조직했다는 인터뷰.",
+      "nobase_inference": "학습 불안에 공감하되 유아용 캐릭터 대신 차분한 학습 도구와 명확한 과정명을 사용."
+    },
+    {
+      "brand": "Mailchimp",
+      "title": "Brand Assets",
+      "url": "https://mailchimp.com/about/brand-assets/",
+      "evidence_mode": "공식 본문 직접 열람",
+      "findings": "브랜드 그래픽은 소유권이 있는 자산이며, 자사와의 관계를 암시하거나 임의 변경·결합하지 않도록 안내한다.",
+      "nobase_inference": "기업 사례는 리서치 근거로 링크만 보관. 다운로드 버튼이 있다고 학원 이미지로 재사용 가능한 것으로 보지 않는다."
+    }
+  ],
+  "synthesis": {
+    "direction": "많은 이미지를 보여주는 것보다 서로 다른 역할을 가진 적은 수의 정돈된 이미지 체계를 만든다.",
+    "image_roles": [
+      {
+        "role": "브랜드 인상",
+        "treatment": "기존 책·새싹 Hero 유지, 새 자산도 동일한 초록·크림·목재·종이 질감으로 확장"
+      },
+      {
+        "role": "구체적인 수업 설명",
+        "treatment": "읽기/개념 적용/오답 복습을 실제 텍스트와 간소한 도식으로 표현"
+      },
+      {
+        "role": "실제 운영 신뢰",
+        "treatment": "학원 공간·교사·수업·교재의 실제 사진을 별도 확보. 생성·스톡 이미지로 실제 학원 사실을 암시하지 않음"
+      },
+      {
+        "role": "분위기 보조",
+        "treatment": "손글씨 없는 책상·노트·문구 정물 사진 1~2장. 사용 조건이 확인된 스톡 또는 생성 이미지임을 분류"
+      }
+    ],
+    "proposed_asset_specs": [
+      {
+        "id": "study-still-life",
+        "purpose": "학원 소개/학습 철학",
+        "ratio": "16:9 master; 4:3 crop-safe",
+        "subject": "아이보리 책상 위 펼친 무지 노트, 초록 교재, 연필의 자연광 근접 정물",
+        "constraints": "좌상단 단일 조명, 차분한 재질, 로고/가짜 글자/사람 없음, 학원 실사로 소개하지 않음"
+      },
+      {
+        "id": "english-spot",
+        "purpose": "영어 과정",
+        "ratio": "4:3",
+        "subject": "초록 표지의 읽기 교재, 깔끔한 책갈피와 연필",
+        "constraints": "임의의 영어 문장·한글을 이미지에 넣지 않음. 핵심 피사체 주변 안전 여백 12% 이상"
+      },
+      {
+        "id": "math-spot",
+        "purpose": "수학 과정",
+        "ratio": "4:3",
+        "subject": "동일 재질의 노트, 삼각자/컴퍼스/간단한 입체 도형",
+        "constraints": "영어 소재와 같은 카메라·조명·축척. 가짜 수식·측정 숫자 없음"
+      },
+      {
+        "id": "review-spot",
+        "purpose": "복습과 관리",
+        "ratio": "4:3",
+        "subject": "정돈된 노트와 구분 탭, 연필, 한 장의 피드백 카드",
+        "constraints": "완료율·등수·학생 이름 없음. 실제 기록과 혼동하지 않음"
+      }
+    ],
+    "quality_gate": [
+      "세 자산을 함께 놓았을 때 광원·축척·채도·배경이 일치하는가",
+      "모바일 크롭에서 피사체와 문구가 잘리지 않는가",
+      "질감 있는 사물과 정확한 텍스트/수식의 역할이 분리됐는가",
+      "각 이미지가 같은 책·연필 반복 이상의 의미를 갖는가",
+      "생성 이미지·스톡·실제 학원 사진을 출처에서 구분했는가"
+    ],
+    "not_recommended": [
+      "무관한 기업의 3D 아이콘을 모아 다운로드하는 방식",
+      "학생 성과나 실제 교실로 오해할 만한 생성 사진",
+      "카드마다 다른 조명·시점의 3D 그래픽",
+      "모든 섹션의 반복 부유 애니메이션",
+      "읽어야 할 학습 내용을 이미지에 통째로 굽는 방식"
+    ]
+  }
+}

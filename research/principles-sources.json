@@ -1,0 +1,68 @@
+{
+  "reviewDate": "2026-11-04",
+  "sources": [
+    {
+      "name": "Nielsen Norman Group — Using Imagery in Visual Design",
+      "url": "https://www.nngroup.com/articles/imagery-in-visual-design/",
+      "observed": "사진의 밝기·대비와 일러스트의 색상·세부 수준을 일관되게 유지하고 정보가 있는 이미지를 우선하도록 설명한다.",
+      "application": "초록·아이보리·오커, 왼쪽 위 광원, 같은 재질과 시점으로 제작한 세트 사용.",
+      "evidenceType": "official article text"
+    },
+    {
+      "name": "Nielsen Norman Group — Memorable Imagery",
+      "url": "https://www.nngroup.com/articles/7-tips-memorable-imagery/",
+      "observed": "관련 있는 소수의 고품질 시각물을 관련 설명 가까이에 배치하며 이미지 과잉을 피하도록 권한다.",
+      "application": "한 페이지에 모든 확보 이미지를 넣지 않고 영어/수학/관리 의미가 있는 슬롯부터 선택.",
+      "evidenceType": "official article text"
+    },
+    {
+      "name": "Open University — Creating a brief",
+      "url": "https://brand.open.ac.uk/designer-brand-guidelines/creating-a-brief-illustration.php",
+      "observed": "목적·대상·주체·복잡도·직설/은유를 먼저 정하고 사진과 일러스트 역할을 나눈다. 실제 사진이 OU의 중심 표현임을 명시한다.",
+      "application": "브랜드 비유는 생성 이미지, 학원 실체는 추후 실제 교실/강사 촬영으로 분리.",
+      "evidenceType": "official brand guideline text"
+    },
+    {
+      "name": "Atlassian — Illustrations",
+      "url": "https://atlassian.design/foundations/illustrations",
+      "observed": "단일 개념 그림, 간소화 UI, 분위기 패턴을 구분하고 과도한 그림이 인지 부하를 높일 수 있다고 설명한다.",
+      "application": "기존 학습관리 UI를 스크린샷처럼 겹치지 않고 실제 텍스트/도식으로 유지. 상담/위치에는 장식 이미지 추가를 최소화.",
+      "evidenceType": "official design guideline text"
+    },
+    {
+      "name": "W3C WAI — Alt decision tree",
+      "url": "https://www.w3.org/WAI/tutorials/images/decision-tree/",
+      "observed": "정보 이미지에는 의미를 전달하는 대체 텍스트, 장식 이미지에는 빈 alt를 권한다. 복잡한 그래프는 내용을 페이지에 별도 제공한다.",
+      "application": "용도별 alt를 매니페스트에 함께 저장. 중요한 수식과 안내 문구는 HTML/SVG로 구현.",
+      "evidenceType": "official accessibility guideline"
+    },
+    {
+      "name": "web.dev — Descriptive syntaxes",
+      "url": "https://web.dev/learn/images/descriptive",
+      "observed": "같은 콘텐츠/비율의 해상도별 srcset과 sizes로 브라우저가 적절한 이미지 후보를 고르게 한다.",
+      "application": "모바일 800px와 PC 최대1600px WebP를 준비하고 원본은 별도 보관.",
+      "evidenceType": "official technical documentation"
+    },
+    {
+      "name": "W3C WCAG 2.3.3 — Animation from Interactions",
+      "url": "https://www.w3.org/WAI/WCAG22/Understanding/animation-from-interactions.html",
+      "observed": "상호작용으로 시작되는 비필수 모션을 끌 수 있도록 하는 AAA 기준.",
+      "application": "모션 감소 설정에서 정지 장면 유지.",
+      "evidenceType": "official article text opened and read by report researcher"
+    },
+    {
+      "name": "W3C WCAG 2.2.2 — Pause, Stop, Hide",
+      "url": "https://www.w3.org/WAI/WCAG22/Understanding/pause-stop-hide.html",
+      "observed": "자동 시작하고 5초를 넘으며 다른 내용과 함께 표시되는 움직임에는 일시정지·정지·숨김 수단을 제공해야 한다(필수 활동 예외).",
+      "application": "짧게 종료되는 대표 장면과 정지 수단을 유지.",
+      "evidenceType": "official article text opened and read by report researcher"
+    },
+    {
+      "name": "web.dev — Optimize Largest Contentful Paint",
+      "url": "https://web.dev/articles/optimize-lcp",
+      "observed": "주요 이미지의 발견과 로딩 우선순위, 실험실과 실사용 측정의 구분을 설명한다.",
+      "application": "첫 대표 이미지는 지연 로딩을 하지 않고, 실제 적용 후 페이지 단위로 측정.",
+      "evidenceType": "official article text opened and read by report researcher"
+    }
+  ]
+}
