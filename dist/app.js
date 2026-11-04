@@ -66,12 +66,16 @@
   function inquiry() {
     return `안녕하세요, 노베이스 학원 영어·수학 수업을 문의드립니다.\n학생 학년: \n관심 과정: ${selectedInterest || '초등 고학년 / 중등 내신 / 고등 내신'}\n관심 과목: 영어 / 수학\n현재 학습 고민: \n궁금한 점: `;
   }
-  async function copyText(text, label) {
+  async function copyText(text, label, allowManualCopy = true) {
     try {
       if (!navigator.clipboard?.writeText) throw new Error('Clipboard unavailable');
       await navigator.clipboard.writeText(text);
       notify(label);
     } catch {
+      if (!allowManualCopy) {
+        notify('번호를 복사하지 못했어요. 휴대폰에서 전화 상담 버튼을 이용해 주세요.');
+        return;
+      }
       manualCopyValue = text;
       $('#dialog-title').textContent = '복사할 내용';
       $('#dialog-description').textContent = '아래 내용을 선택해 직접 복사해 주세요.';
@@ -106,7 +110,7 @@
     } else if (button.dataset.contact === 'phone' && config.phone && !config.demoMode) {
       const phone = config.phone.replace(/[^\d+]/g, '');
       if (window.matchMedia('(max-width: 700px)').matches) window.location.href = `tel:${phone}`;
-      else copyText(config.phone, '전화번호를 복사했습니다.');
+      else copyText(config.phone, '전화번호를 복사했습니다.', false);
     } else showContact(selectedInterest);
   }));
   $$('.copy-inquiry').forEach(button => button.addEventListener('click', () => {
@@ -145,24 +149,11 @@
   if (config.address) $('#address-text').textContent = config.address;
   if (validHttps(config.mapUrl)) {$('#map-link').href = config.mapUrl;$('#map-link').hidden = false;}
   if (config.phone && !config.demoMode) {
-    const phone = config.phone.replace(/[^\d+]/g, '');
-    $$('[data-phone-number]').forEach(element => element.textContent = config.phone);
-    for (const selector of ['#dialog-phone-link', '#contact-phone-link']) {
-      const link = $(selector);
-      if (!link) continue;
-      link.href = `tel:${phone}`;
-      link.addEventListener('click', event => {
-        if (!window.matchMedia('(max-width: 700px)').matches) {
-          event.preventDefault();
-          copyText(config.phone, '전화번호를 복사했습니다.');
-        }
-      });
-    }
     const copyPhoneButton = $('#copy-phone');
     if (copyPhoneButton) {
       copyPhoneButton.hidden = false;
-      copyPhoneButton.setAttribute('aria-label', `전화번호 ${config.phone} 복사`);
-      copyPhoneButton.addEventListener('click', () => copyText(config.phone, '전화번호를 복사했습니다.'));
+      copyPhoneButton.setAttribute('aria-label', '전화번호 복사');
+      copyPhoneButton.addEventListener('click', () => copyText(config.phone, '전화번호를 복사했습니다.', false));
     }
   }
   const copyAddressButton = $('#copy-address');
