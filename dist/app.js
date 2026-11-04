@@ -104,14 +104,14 @@
     try {return new URL(value).protocol === 'https:';} catch {return false;}
   }
   $$('[data-contact]').forEach(button => button.addEventListener('click', () => {
-    selectedInterest = button.dataset.interest || '';
+    const interest = button.dataset.interest || '';
     if (button.dataset.contact === 'kakao' && validHttps(config.kakaoUrl)) {
       window.open(config.kakaoUrl, '_blank', 'noopener,noreferrer');
     } else if (button.dataset.contact === 'phone' && config.phone && !config.demoMode) {
       const phone = config.phone.replace(/[^\d+]/g, '');
       if (window.matchMedia('(max-width: 700px)').matches) window.location.href = `tel:${phone}`;
       else copyText(config.phone, '전화번호를 복사했습니다.', false);
-    } else showContact(selectedInterest);
+    } else showContact(interest);
   }));
   $$('.copy-inquiry').forEach(button => button.addEventListener('click', () => {
     if (!dialog.open) selectedInterest = '';
