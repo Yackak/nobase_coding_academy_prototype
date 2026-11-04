@@ -3,6 +3,7 @@ import HeroScene from './components/HeroScene';
 import LearningSystem from './components/LearningSystem';
 import ProgramCard, { programs } from './components/ProgramCard';
 import ResponsiveDetails from './components/ResponsiveDetails';
+import EditorialImage from './components/EditorialImage';
 import { ContactProvider, useContact } from './components/ContactProvider';
 import { config } from './config';
 import { useSectionEntrances } from './hooks/useSectionEntrances';
@@ -47,14 +48,27 @@ function Page() {
 
     <section className="about section" id="about" aria-labelledby="about-title">
       <div className="container about-grid">
-        <div><span className="section-label">OUR PHILOSOPHY <span>01 — 학원 소개</span></span><h2 id="about-title">모르는 건,<br /> <span className="soft-green">시작할 수 있다는 뜻.</span></h2></div>
-        <div className="about-copy"><p className="lead">영어가 막막해도, 수학이 어렵게 느껴져도.<br /> 지금의 출발점에서 다시 시작할 수 있습니다.</p><p>어디까지 배웠는지보다 어디에서 막혔는지.<br /> 정답을 맞혔는지보다 풀이를 이해했는지.<br /> 노베이스는 기초를 채우고 스스로 공부하는 힘을 기릅니다.</p><a className="text-link" href="#system">노베이스가 생각하는 배움<svg><use href="#i-arrow"/></svg></a></div>
+        <div className="about-story"><span className="section-label">OUR PHILOSOPHY <span>01 — 학원 소개</span></span><h2 id="about-title">모르는 건,<br /> <span className="soft-green">시작할 수 있다는 뜻.</span></h2>
+          <div className="about-copy"><p className="lead">영어가 막막해도, 수학이 어렵게 느껴져도.<br /> 지금의 출발점에서 다시 시작할 수 있습니다.</p><p>어디까지 배웠는지보다 어디에서 막혔는지.<br /> 정답을 맞혔는지보다 풀이를 이해했는지.<br /> 노베이스는 기초를 채우고 스스로 공부하는 힘을 기릅니다.</p><a className="text-link" href="#system">노베이스가 생각하는 배움<svg><use href="#i-arrow"/></svg></a></div>
+        </div>
+        <EditorialImage kind="quiet-study" className="about-visual" caption="노베이스의 배움을 표현한 브랜드 이미지" />
         <div className="about-bottom"><span className="little-flower" aria-hidden="true">✳</span><p>기초를 채우고, 이해를 넓히고. <strong>꾸준한 학습을 내신 자신감으로.</strong></p><span className="small-caps">GROW AT YOUR OWN PACE</span></div>
       </div>
     </section>
 
     <section className="programs section container" id="programs" aria-labelledby="programs-title">
       <div className="section-top"><div><span className="section-label">LEARNING JOURNEY <span>02 — 교육과정</span></span><h2 id="programs-title">초등의 기초부터<br />중·고등 내신까지.</h2></div><p>영어와 수학, 학년마다 필요한 학습에 집중합니다.<br /> 현재 수준과 학교 진도를 고려한 과정 안내.</p></div>
+      <div className="subject-grid" aria-label="영어와 수학의 학습 방향">
+        <article className="subject-card" aria-labelledby="subject-english-title">
+          <EditorialImage kind="english-reading" className="subject-visual" sizes="(max-width: 767px) calc((100vw - 52px) / 2), (max-width: 1272px) calc((100vw - 96px) / 2), 588px" />
+          <div className="subject-copy"><div className="subject-heading"><span>ENGLISH</span><h3 id="subject-english-title">영어</h3></div><p>어휘에서 문장으로,<br />읽고 이해하는 힘.</p></div>
+        </article>
+        <article className="subject-card" aria-labelledby="subject-math-title">
+          <EditorialImage kind="math-reasoning" className="subject-visual" sizes="(max-width: 767px) calc((100vw - 52px) / 2), (max-width: 1272px) calc((100vw - 96px) / 2), 588px" />
+          <div className="subject-copy"><div className="subject-heading"><span>MATHEMATICS</span><h3 id="subject-math-title">수학</h3></div><p>개념에서 풀이로,<br />스스로 풀어내는 힘.</p></div>
+        </article>
+      </div>
+      <div className="program-level-heading"><h3>학년에 맞춰 이어가는 배움</h3><span>초등 고학년 · 중등 · 고등</span></div>
       <div className="program-grid">{programs.map(program => <ProgramCard key={program.level} program={program} />)}</div>
       <p className="section-footnote"><span>안내</span>학생의 학년과 관심 과목, 현재 학습 상황을 알려주시면 수강 가능한 과정과 일정을 안내합니다.</p>
     </section>

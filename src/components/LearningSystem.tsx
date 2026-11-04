@@ -1,6 +1,7 @@
 import { useRef, useState, type CSSProperties, type KeyboardEvent } from 'react';
 import { gsap } from 'gsap';
 import { useSceneMotion } from '../hooks/useSceneMotion';
+import EditorialImage from './EditorialImage';
 
 const stages = [
   { id: 'diagnosis', label: '현재 수준 확인', summary: '과목별 이해도와 학습 고민부터', short: '진단', eyebrow: '지금의 이해에서 시작하는 학습', title: '영어·수학 진단 노트', intro: '얼마나 배웠는지보다, 어떤 부분에서 막히는지 먼저 살펴봅니다.', rows: [['영어 기본기 살펴보기', '어휘 · 문장 이해 · 독해의 출발점', '영어'], ['수학 개념 확인하기', '배운 개념을 설명하고 적용할 수 있나요?', '수학'], ['학교 학습 상황 알아보기', '최근 시험과 평소 학습 습관을 돌아봐요.', '진단']], note: '틀린 문제는 부족한 부분을 알려주는 힌트예요. 지금의 이해에서 차근차근 시작해요.' },
@@ -42,11 +43,18 @@ export default function LearningSystem() {
   }
 
   return <section className="system section" id="system" aria-labelledby="system-title">
-    <div className="container system-grid">
-      <div className="system-copy">
+    <div className="container">
+      <div className="system-intro">
+        <div className="system-copy">
         <span className="section-label">THE NOBASE WAY <span>03 — 학습관리</span></span>
         <h2 id="system-title">배우는 순간부터<br />스스로 풀 수 있을 때까지.</h2>
         <p>어디에서 막히는지 살피고, 필요한 학습을 정합니다.<br /> 개념 이해부터 복습과 내신 점검까지.</p>
+        </div>
+        <EditorialImage kind="learning-plan" className="system-visual" caption="작은 계획이 꾸준한 배움으로 이어지도록" />
+      </div>
+      <div className="system-grid">
+      <div className="system-steps">
+        <p className="system-step-label">네 단계로 살펴보는 노베이스의 학습관리</p>
         <div className="system-tabs" role="tablist" aria-label="학습관리 단계" aria-orientation="vertical">
           {stages.map((item, index) => <button
             key={item.id}
@@ -89,6 +97,7 @@ export default function LearningSystem() {
         </div>
         <p className="sample-note">이해를 돕기 위한 예시이며 실제 학생의 기록이 아닙니다.<br /> 세부 관리 방식과 피드백 주기는 과정에 따라 안내합니다.</p>
       </div>
+    </div>
     </div>
   </section>;
 }

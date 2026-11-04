@@ -7,6 +7,8 @@ import './styles/desktop.css';
 import './styles/motion.css';
 import './styles/hero-scene.css';
 import './styles/learning-scenes.css';
+import './styles/editorial-images.css';
+import './styles/brand-layout.css';
 
 const root = document.getElementById('root')!;
 const app = <StrictMode><App /></StrictMode>;
